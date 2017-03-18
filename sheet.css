@@ -1,0 +1,39 @@
+html, body{
+	margin: 0px;
+	padding: 0px;
+}
+
+/* Congratz text */
+#congratz{
+	text-align: center;
+	font-size: 55px;
+	font-family: 'Ranga', cursive;
+	visibility: hidden;
+	animation: color-change 1s infinite;
+}
+	.displayCongratz{
+		visibility: visible !important;
+	}
+	@keyframes color-change {
+    	0% { color: blue; }
+    	50% { color: orange; }
+    	70% { color: red; }
+    	100% { color: blue; }
+	}
+
+/* The canvas */
+#frame{
+	position: fixed;
+	left: 0px;
+	top: 0px;
+}
+
+/* Svg and it's container */
+#container{
+	width: 50%;
+	margin: auto;
+	margin-top: 10%;
+}
+	#cake{
+		width: 100%;
+	}
